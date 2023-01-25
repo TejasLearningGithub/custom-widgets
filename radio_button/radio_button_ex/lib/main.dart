@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:radio_button_ex/CustomRadioWorks/radio_widget.dart';
 import 'package:radio_button_ex/MyRadio/radio_implement.dart';
 import 'package:radio_button_ex/radio_implement.dart';
+import 'package:radio_button_ex/radio_tile/ex_radio_list_tile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: RadioWidgetDemo(),
+      home: ExRadioListTile(),
     );
   }
 }
